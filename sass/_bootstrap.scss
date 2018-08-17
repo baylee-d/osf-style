@@ -282,7 +282,7 @@
   bottom: 100%;
   margin-bottom: 2px;
 }
-@media (min-width: 768px) {
+@media (min-width: 993px) {
   .navbar-right .dropdown-menu {
     left: auto;
     right: 0;
@@ -493,7 +493,7 @@
     }
 
      /* sm screen formatting */
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 993px) {
         /* Adds css triangle to auth dropdown - only on sm screens and greater */
         .dropdown-menu.auth-dropdown {
             :after {

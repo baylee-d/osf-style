@@ -723,7 +723,7 @@ input {
   margin-bottom: 2px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 993px) {
   .navbar-right .dropdown-menu {
     left: auto;
     right: 0;
@@ -940,7 +940,7 @@ input {
   margin-top: 3px;
   font-size: 15px;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 993px) {
   .osf-nav-wrapper {
     /* Adds css triangle to auth dropdown - only on sm screens and greater */
   }
@@ -1516,7 +1516,6 @@ button.nav-user-dropdown {
 
   .navbar-header {
     float: none;
-    width: 100%;
   }
 
   .navbar-toggle {
@@ -1563,6 +1562,24 @@ button.nav-user-dropdown {
 
   .collapsing {
     overflow: hidden !important;
+  }
+  
+  .navbar-brand {
+    margin-left: 0 !important;
+    height: 48px !important;
+    line-height: 27px !important;
+    padding: 11px 15px 10px 15px !important;
+  }
+
+  .secondary-nav-dropdown > .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
   }
 }
 @media (min-width: 993px) {
